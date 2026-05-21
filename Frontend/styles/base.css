@@ -46,4 +46,23 @@ h1 {
 img {
     width: 20vw;
     height: 20vh;
+    transition: transform 0.5s ease;
+}
+img:hover {
+    transform: rotate(360deg);
+}
+
+.duck {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5vh;
+}
+.duck a {
+    color: var(--textPrimary);
+    text-decoration: none;
+    transition: transform 0.5s ease;
+}
+.duck a:hover {
+    transform: rotate(360deg)
 }
